@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Cambiar Nombre"
+        android:key="username"
+        android:summary="Porfavor ingrese su nombre"/>
+    <ListPreference     android:title="Estilos"
+        android:summary="Haga click y seleccione uno de los estilos"
+        android:key="estilos"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+    <ListPreference     android:title="Idioma"
+        android:summary="Seleccione un tipo de idioma"
+        android:key="idioma"
+        android:defaultValue="1"
+        android:entries="@array/listArray2"
+        android:entryValues="@array/listValues" />
+
+
+
+
+
+
+
+
+
+
+    <CheckBoxPreference
+        android:key="cbxPreferenceOn"
+        android:summary="Marcar si se desean usar las preferencias de usuario."
+        android:title="Usar preferencias" />
+
+    <PreferenceCategory android:title="Fondo" >
+        <ListPreference
+            android:entries="@array/fondo_entries"
+            android:entryValues="@array/fondo_values"
+            android:key="lpFondo"
+            android:summary="Indica el color de fondo que se desea aplicar al texto."
+            android:title="Color de fondo" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Texto" >
+        <EditTextPreference
+            android:dialogTitle="Escribe el texto"
+            android:key="etpTexto"
+            android:summary="Indica el texto que se desea mostrar."
+            android:title="Texto" />
+
+        <ListPreference
+            android:entries="@array/texto_entries"
+            android:entryValues="@array/texto_values"
+            android:key="lpTexto"
+            android:summary="Indica el tamaño del texto"
+            android:title="Tamaño del texto" />
+    </PreferenceCategory>
+
+
+
+
+
+</PreferenceScreen>

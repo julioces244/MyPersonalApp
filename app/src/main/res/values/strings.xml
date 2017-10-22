@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MyPersonalApp</string>
+    <string name="title_activity_drawer_navigation">DrawerNavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+        <string-array name="listArray">
+            <item>Dark Style</item>
+            <item>Light Style</item>
+            <item>Live Style</item>
+        </string-array>
+
+        <string-array name="listValues">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+        </string-array>
+
+        <string-array name="listArray2">
+            <item>Español</item>
+            <item>Inglés</item>
+        </string-array>
+
+
+        <array name="texto_entries">
+            <item>Normal</item>
+            <item>Mediano</item>
+            <item>Grande</item>
+        </array>
+        <array name="texto_values">
+            <item>normal</item>
+            <item>medium</item>
+            <item>big</item>
+        </array>
+        <array name="fondo_entries">
+            <item>Rojo</item>
+            <item>Gris</item>
+            <item>Azul</item>
+        </array>
+        <array name="fondo_values">
+            <item>red</item>
+            <item>gray</item>
+            <item>blue</item>
+        </array>
+
+</resources>
